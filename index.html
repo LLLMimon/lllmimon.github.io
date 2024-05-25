@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gewinnspiel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-image: url('hintergrundbild.jpg'); /* Pfad zu deinem Bild */
+            background-size: cover; /* Bild auf die gesamte Größe strecken */
+            background-position: center; /* Bild zentrieren */
+            background-repeat: no-repeat; /* Bild nicht wiederholen */
+        }
+        #message {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gewinnspiel: Gewinne ein Fußballticket!</h1>
+    <p>Gib den richtigen Code ein, um zu gewinnen:</p>
+    <input type="text" id="codeInput" placeholder="Gib deinen Code ein">
+    <button onclick="checkCode()">Code überprüfen</button>
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
